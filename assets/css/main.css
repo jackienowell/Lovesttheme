@@ -546,14 +546,15 @@ main {
 }
 
 .author {
-	margin: 42px auto;
-	padding: 32px 72px;
+	margin: 20px auto;
+	padding: 50px 72px;
+}
 }
 
 .author__avatar {
 	float: left;
 	height: auto;
-	margin: 0 60px 0 0;
+	margin: -20px 40px 0 0;
 	max-width: 80px;
 }
 
