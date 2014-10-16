@@ -558,12 +558,12 @@ main {
 	max-width: 80px;
 }
 
-.autor_avatar > img {
+.autor_avatar>a img {
 	width: 100px;
 	height: 100px;
 	-webkit-border-radius: 60px; /* Saf3+, Chrome */
+	-moz-border-radius: 30px;  /*Disabled for FF1+ */
 	border-radius: 60px; /* Opera 10.5, IE 9 */
-	/*-moz-border-radius: 30px;  Disabled for FF1+ */
 }
 
 .author__name {
